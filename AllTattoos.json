@@ -4798,5 +4798,277 @@
         "HashNameFemale": "FM_Tat_F_047",
         "Zone": "ZONE_RIGHT_ARM",
         "Price": 2500
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_01",
+        "HashNameMale": "rog_release_01_M",
+        "HashNameFemale": "new_tattoo_201_F",
+        "Zone": "ZONE_TORSO",
+        "Price": 300
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_02",
+        "HashNameMale": "rog_release_02_M",
+        "HashNameFemale": "new_tattoo_202_F",
+        "Zone": "ZONE_HEAD",
+        "Price": 600
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_03",
+        "HashNameMale": "rog_release_03_M",
+        "HashNameFemale": "new_tattoo_203_F",
+        "Zone": "ZONE_LEFT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_04",
+        "HashNameMale": "rog_release_04_M",
+        "HashNameFemale": "new_tattoo_204_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_05",
+        "HashNameMale": "rog_release_05_M",
+        "HashNameFemale": "new_tattoo_205_F",
+        "Zone": "ZONE_LEFT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_06",
+        "HashNameMale": "rog_release_06_M",
+        "HashNameFemale": "new_tattoo_206_F",
+        "Zone": "ZONE_LEFT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_07",
+        "HashNameMale": "rog_release_07_M",
+        "HashNameFemale": "new_tattoo_207_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_08",
+        "HashNameMale": "rog_release_08_M",
+        "HashNameFemale": "new_tattoo_208_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_09",
+        "HashNameMale": "rog_release_09_M",
+        "HashNameFemale": "new_tattoo_209_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_10",
+        "HashNameMale": "rog_release_10_M",
+        "HashNameFemale": "new_tattoo_210_F",
+        "Zone": "ZONE_RIGHT_LEG",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_11",
+        "HashNameMale": "rog_release_11_M",
+        "HashNameFemale": "new_tattoo_211_F",
+        "Zone": "ZONE_LEFT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_12",
+        "HashNameMale": "rog_release_12_M",
+        "HashNameFemale": "new_tattoo_212_F",
+        "Zone": "ZONE_TORSO",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_13",
+        "HashNameMale": "rog_release_13_M",
+        "HashNameFemale": "new_tattoo_213_F",
+        "Zone": "ZONE_TORSO",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_14",
+        "HashNameMale": "rog_release_14_M",
+        "HashNameFemale": "new_tattoo_214_F",
+        "Zone": "ZONE_TORSO",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_15",
+        "HashNameMale": "rog_release_15_M",
+        "HashNameFemale": "new_tattoo_215_F",
+        "Zone": "ZONE_TORSO",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_16",
+        "HashNameMale": "rog_release_16_M",
+        "HashNameFemale": "new_tattoo_216_F",
+        "Zone": "ZONE_LEFT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_17",
+        "HashNameMale": "rog_release_17_M",
+        "HashNameFemale": "new_tattoo_217_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_18",
+        "HashNameMale": "rog_release_18_M",
+        "HashNameFemale": "new_tattoo_218_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_19",
+        "HashNameMale": "rog_release_19_M",
+        "HashNameFemale": "new_tattoo_219_F",
+        "Zone": "ZONE_LEFT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_20",
+        "HashNameMale": "rog_release_20_M",
+        "HashNameFemale": "new_tattoo_220_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_21",
+        "HashNameMale": "rog_release_21_M",
+        "HashNameFemale": "new_tattoo_221_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_22",
+        "HashNameMale": "rog_release_22_M",
+        "HashNameFemale": "new_tattoo_222_F",
+        "Zone": "ZONE_LEFT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_23",
+        "HashNameMale": "rog_release_23_M",
+        "HashNameFemale": "new_tattoo_223_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_24",
+        "HashNameMale": "rog_release_24_M",
+        "HashNameFemale": "new_tattoo_224_F",
+        "Zone": "ZONE_TORSO",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_25",
+        "HashNameMale": "rog_release_25_M",
+        "HashNameFemale": "new_tattoo_225_F",
+        "Zone": "ZONE_LEFT_LEG",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_26",
+        "HashNameMale": "rog_release_26_M",
+        "HashNameFemale": "new_tattoo_226_F",
+        "Zone": "ZONE_LEFT_LEG",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_27",
+        "HashNameMale": "rog_release_27_M",
+        "HashNameFemale": "new_tattoo_227_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_28",
+        "HashNameMale": "rog_release_28_M",
+        "HashNameFemale": "new_tattoo_228_F",
+        "Zone": "ZONE_LEFT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_29",
+        "HashNameMale": "rog_release_29_M",
+        "HashNameFemale": "new_tattoo_229_F",
+        "Zone": "ZONE_TORSO",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_30",
+        "HashNameMale": "rog_release_30_M",
+        "HashNameFemale": "new_tattoo_230_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_31",
+        "HashNameMale": "rog_release_31_M",
+        "HashNameFemale": "new_tattoo_231_F",
+        "Zone": "ZONE_TORSO",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_32",
+        "HashNameMale": "rog_release_32_M",
+        "HashNameFemale": "new_tattoo_232_F",
+        "Zone": "ZONE_TORSO",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_35",
+        "HashNameMale": "rog_release_35_M",
+        "HashNameFemale": "new_tattoo_235_F",
+        "Zone": "ZONE_TORSO",
+        "Price": 10000
+    },
+    {
+        "Collection": "rog_release_01",
+        "Name": "Rog_Release_36",
+        "HashNameMale": "rog_release_36_M",
+        "HashNameFemale": "new_tattoo_236_F",
+        "Zone": "ZONE_TORSO",
+        "Price": 10000
     }
 ]
