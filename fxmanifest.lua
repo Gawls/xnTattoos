@@ -3,11 +3,19 @@ game 'gta5'
 
 description 'xnTattoos'
 
-shared_script 'config.lua'
+shared_script {
+	'@qb-core/shared/locale.lua',
+	'config.lua'
+}
+
 
 client_scripts {
+	'@PolyZone/client.lua',
+    '@PolyZone/BoxZone.lua',
+    '@PolyZone/ComboZone.lua',
 	'client/jaymenu.lua',
-	'client/main.lua'
+	'client/main.lua',
+	'client/list.lua'
 }
 
 server_scripts {
@@ -15,6 +23,11 @@ server_scripts {
 	'server/main.lua'
 }
 
-file 'AllTattoos.json'
+file {
+	'data/rog_release_01.xml',
+	'AllTattoos.json'
+}
+
+data_file 'PED_OVERLAY_FILE' 'data/rog_release_01.xml'
 
 lua54 'yes'
