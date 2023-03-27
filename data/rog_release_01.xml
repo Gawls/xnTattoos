@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PedDecorationCollection>
+  <bRequiredForSync value="true" />
+  <presets>
+
+  
+   
+    <Item>
+     <uvPos x="0.230000" y="0.530000" />   
+      <scale x="0.200000" y="0.380000" />  
+      <rotation value="0.000000" />
+      <nameHash>rog_release_01_M</nameHash>
+      <txdHash>rog_release_01</txdHash>
+      <txtHash>rog_release_01</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.00000" y="0.450000" />
+      <scale x="0.1500000" y="0.15000" />
+      <rotation value="0.000000" />
+      <nameHash>rog_release_02_M</nameHash>
+      <txdHash>rog_release_02</txdHash>
+      <txtHash>rog_release_02</txtHash>
+      <zone>ZONE_HEAD</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.345" y="0.638" />
+      <scale x="0.25" y="0.33" />
+      <rotation value="0.000000" />
+      <nameHash>rog_release_03_M</nameHash>
+      <txdHash>rog_release_03</txdHash>
+      <txtHash>rog_release_03</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.51" y="0.6" />
+      <scale x="0.3" y="0.36" />
+      <rotation value="0.000000" />
+      <nameHash>rog_release_04_M</nameHash>
+      <txdHash>rog_release_04</txdHash>
+      <txtHash>rog_release_04</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.24" y="0.56" />
+      <scale x="0.2" y="0.35" />
+      <rotation value="0.000000" />
+      <nameHash>rog_release_05_M</nameHash>
+      <txdHash>rog_release_05</txdHash>
+      <txtHash>rog_release_05</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.26" y="0.54" />
+      <scale x="0.147" y="0.37" />
+      <rotation value="0.000000" />
+      <nameHash>rog_release_06_M</nameHash>
+      <txdHash>rog_release_06</txdHash>
+      <txtHash>rog_release_06</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.28" y="0.53" />
+      <scale x="0.3" y="0.33" />
+      <rotation value="0.000000" />
+      <nameHash>rog_release_07_M</nameHash>
+      <txdHash>rog_release_07</txdHash>
+      <txtHash>rog_release_07</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.52" y="0.76" />
+      <scale x="0.25" y="0.25" />
+      <rotation value="0.000000" />
+      <nameHash>rog_release_08_M</nameHash>
+      <txdHash>rog_release_08</txdHash>
+      <txtHash>rog_release_08</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.44" y="0.44" />
+      <scale x="0.24" y="0.22" />
+      <rotation value="0.000000" />
+      <nameHash>rog_release_09_M</nameHash>
+      <txdHash>rog_release_09</txdHash>
+      <txtHash>rog_release_09</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.25" y="0.35" />
+      <scale x="0.2" y="0.2" />
+      <rotation value="0.000000" />
+      <nameHash>rog_release_10_M</nameHash>
+      <txdHash>rog_release_10</txdHash>
+      <txtHash>rog_release_10</txtHash>
+      <zone>ZONE_RIGHT_LEG</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.25" y="0.48" />
+      <scale x="0.12" y="0.125" />
+      <rotation value="0.000000" />
+      <nameHash>rog_release_11_M</nameHash>
+      <txdHash>rog_release_11</txdHash>
+      <txtHash>rog_release_11</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.18" y="0.6" />
+      <scale x="0.12" y="0.12" />
+      <rotation value="-6.84" />
+      <nameHash>rog_release_12_M</nameHash>
+      <txdHash>rog_release_12</txdHash>
+      <txtHash>rog_release_12</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.18" y="0.6" />
+      <scale x="0.12" y="0.12" />
+      <rotation value="-6.84" />
+      <nameHash>rog_release_13_M</nameHash>
+      <txdHash>rog_release_13</txdHash>
+      <txtHash>rog_release_13</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.225" y="0.55" />
+      <scale x="0.215" y="0.325" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_14_M</nameHash>
+      <txdHash>rog_release_14</txdHash>
+      <txtHash>rog_release_14</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.82" y="0.62" />
+      <scale x="0.09" y="0.07" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_15_M</nameHash>
+      <txdHash>rog_release_15</txdHash>
+      <txtHash>rog_release_15</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.31" y="0.52" />
+      <scale x="0.1" y="0.1" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_16_M</nameHash>
+      <txdHash>rog_release_16</txdHash>
+      <txtHash>rog_release_16</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.13" y="0.48" />
+      <scale x="0.07" y="0.12" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_17_M</nameHash>
+      <txdHash>rog_release_17</txdHash>
+      <txtHash>rog_release_17</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.2" y="0.52" />
+      <scale x="0.1" y="0.1" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_18_M</nameHash>
+      <txdHash>rog_release_18</txdHash>
+      <txtHash>rog_release_18</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.8" y="0.5" />
+      <scale x="0.1" y="0.1" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_19_M</nameHash>
+      <txdHash>rog_release_19</txdHash>
+      <txtHash>rog_release_19</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0" y="0.37" />
+      <scale x="0.05" y="0.034" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_20_M</nameHash>
+      <txdHash>rog_release_20</txdHash>
+      <txtHash>rog_release_20</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.775" y="0.625" />
+      <scale x="0.1" y="0.1" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_21_M</nameHash>
+      <txdHash>rog_release_21</txdHash>
+      <txtHash>rog_release_21</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.53" y="0.6" />
+      <scale x="0.3" y="0.3" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_22_M</nameHash>
+      <txdHash>rog_release_22</txdHash>
+      <txtHash>rog_release_22</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.527" y="0.55" />
+      <scale x="0.17" y="0.25" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_23_M</nameHash>
+      <txdHash>rog_release_23</txdHash>
+      <txtHash>rog_release_23</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="-0.173" y="0.61" />
+      <scale x="0.1" y="0.1" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_24_M</nameHash>
+      <txdHash>rog_release_24</txdHash>
+      <txtHash>rog_release_24</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.27" y="0.4" />
+      <scale x="0.2" y="0.2" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_25_M</nameHash>
+      <txdHash>rog_release_25</txdHash>
+      <txtHash>rog_release_25</txtHash>
+      <zone>ZONE_LEFT_LEG</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.27" y="0.4" />
+      <scale x="0.2" y="0.2" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_26_M</nameHash>
+      <txdHash>rog_release_26</txdHash>
+      <txtHash>rog_release_26</txtHash>
+      <zone>ZONE_LEFT_LEG</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.15" y="0.48" />
+      <scale x="0.15" y="0.14" />
+      <rotation value="3.2" />
+      <nameHash>rog_release_27_M</nameHash>
+      <txdHash>rog_release_27</txdHash>
+      <txtHash>rog_release_27</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.83" y="0.48" />
+      <scale x="0.14" y="0.14" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_28_M</nameHash>
+      <txdHash>rog_release_28</txdHash>
+      <txtHash>rog_release_28</txtHash>
+      <zone>ZONE_LEFT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.725" y="0.62" />
+      <scale x="0.15" y="0.15" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_29_M</nameHash>
+      <txdHash>rog_release_29</txdHash>
+      <txtHash>rog_release_29</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.7" y="0.48" />
+      <scale x="0.15" y="0.15" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_30_M</nameHash>
+      <txdHash>rog_release_30</txdHash>
+      <txtHash>rog_release_30</txtHash>
+      <zone>ZONE_RIGHT_ARM</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.225" y="0.55" />
+      <scale x="0.215" y="0.215" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_31_M</nameHash>
+      <txdHash>rog_release_31</txdHash>
+      <txtHash>rog_release_31</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+     <Item>
+      <uvPos x="0.8" y="0.6" />
+      <scale x="0.1" y="0.1" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_32_M</nameHash>
+      <txdHash>rog_release_32</txdHash>
+      <txtHash>rog_release_32</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.8" y="0.6" />
+      <scale x="0.1" y="0.1" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_35_M</nameHash>
+      <txdHash>rog_release_35</txdHash>
+      <txtHash>rog_release_35</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <Item>
+      <uvPos x="0.8" y="0.6" />
+      <scale x="0.1" y="0.1" />
+      <rotation value="0.0" />
+      <nameHash>rog_release_36_M</nameHash>
+      <txdHash>rog_release_36</txdHash>
+      <txtHash>rog_release_36</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_DONTCARE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+
+    
+  </presets>
+  <nameHash>rog_release_01</nameHash>
+  <medalLocations content="vector2_array">
+    0.140000	0.070000	
+    0.370000	0.070000	
+    0.600000	0.070000	
+    0.835000	0.070000	
+    0.140000	0.150000	
+    0.370000	0.150000	
+    0.600000	0.150000	
+    0.835000	0.150000	
+    0.140000	0.230000	
+    0.370000	0.230000	
+    0.600000	0.230000	
+    0.835000	0.230000	
+    0.100000	0.700000	
+    0.300000	0.700000	
+    0.500000	0.700000	
+    0.700000	0.700000	
+  </medalLocations>
+</PedDecorationCollection>
