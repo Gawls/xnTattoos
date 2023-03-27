@@ -5,6 +5,7 @@ local back = 1
 local opacity = 1
 local scaleType = nil
 local scaleString = ""
+local clickedOnPed = false
 
 -- Functions
 
@@ -65,6 +66,25 @@ local function ResetSkin()
 	end
 end
 
+RegisterNetEvent ("xnTattoos:getTattoos", function()
+    QBCore.Functions.TriggerCallback('SmallTattoos:GetPlayerTattoos', function(tattooList)
+		if tattooList then
+			ClearPedDecorations(PlayerPedId())
+            Citizen.Wait(5000)
+			for k, v in pairs(tattooList) do
+				if v.Count ~= nil then
+					for i = 1, v.Count do
+						AddPedDecorationFromHashes(PlayerPedId(), v.collection, v.nameHash)
+					end
+				else
+					AddPedDecorationFromHashes(PlayerPedId(), v.collection, v.nameHash)
+				end
+			end
+			currentTattoos = tattooList
+		end
+	end)
+end)
+
 local function ReqTexts(text, slot)
 	RequestAdditionalText(text, slot)
 	while not HasAdditionalTextLoaded(slot) do
@@ -73,20 +93,47 @@ local function ReqTexts(text, slot)
 end
 
 local function OpenTattooShop()
+    clickedOnPed = true
 	JayMenu.OpenMenu("tattoo")
 	FreezeEntityPosition(PlayerPedId(), true)
+	TriggerEvent("backitems:displayItems", false)
 	GetNaked()
 	ReqTexts("TAT_MNU", 9)
 end
 
 local function CloseTattooShop()
-	ClearAdditionalText(9, 1)
+	clickedOnPed = false
+    ClearAdditionalText(9, 1)
 	FreezeEntityPosition(PlayerPedId(), false)
 	EnableAllControlActions(0)
 	back = 1
 	opacity = 1
 	ResetSkin()
+	TriggerEvent("backitems:displayItems", true)
 	return true
+end
+
+local artistSpawned = false
+local function spawnPeds()
+    if not Config.TattooPeds or not next(Config.TattooPeds) or artistSpawned then return end
+    for i = 1, #Config.TattooPeds do
+        local current = Config.TattooPeds[i]
+        current.model = type(current.model) == 'string' and GetHashKey(current.model) or current.model
+        RequestModel(current.model)
+        while not HasModelLoaded(current.model) do
+            Wait(0)
+        end
+        local ped = CreatePed(0, current.model, current.coords, false, false)
+        FreezeEntityPosition(ped, true)
+        SetEntityInvincible(ped, true)
+        SetBlockingOfNonTemporaryEvents(ped, true)
+        current.pedHandle = ped
+		exports['qb-target']:AddTargetEntity(ped, {
+			options = {{type = "client", event = "xnTattoo:client:MainMenu", label = 'Talk to Tattoo Artist', icon = 'fa-solid fa-pen-nib',}},
+			distance = 2.0
+		})
+    end
+    artistSpawned = true
 end
 
 local function ButtonPress()
@@ -221,6 +268,23 @@ AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
 	end)
 end)
 
+RegisterNetEvent('xnTattoo:client:MainMenu', function()
+    local MainMenu = {}
+    MainMenu[#MainMenu+1] = { 
+                                header = 'How can I help you?',
+                                txt = 'I want a tattoo!',
+                                params = { 
+                                    event = 'xnTattoos:client:openTattooShopMenu',
+                                }
+                            }
+    exports['qb-menu']:openMenu(MainMenu)
+end)
+
+AddEventHandler('xnTattoos:client:openTattooShopMenu', function()
+    OpenTattooShop()
+end)
+
+
 -- Threads
 
 CreateThread(function()
@@ -234,9 +298,11 @@ CreateThread(function()
 		BeginTextCommandSetBlipName("ParaTattoos")
 		EndTextCommandSetBlipName(blip)
 	end
+	spawnPeds()
 end)
 
 CreateThread(function()
+    print('getting tattoo list')
 	while true do
 		Wait(300000)
 		if not IsMenuOpen() then
@@ -259,8 +325,9 @@ CreateThread(function()
 	end
 end)
 
+-- Opens tattoo selction menu
 CreateThread(function()
-	JayMenu.CreateMenu("tattoo", "Tattoo Shop", function()
+	JayMenu.CreateMenu("tattoo", "The Community Tattoos", function()
         return CloseTattooShop()
     end)
     JayMenu.SetSubTitle('tattoo', "Categories")
@@ -274,23 +341,15 @@ CreateThread(function()
         Wait(0)
 		local CanSleep = true
 		if not IsMenuOpen() then
-			for _,interiorId in ipairs(Config.interiorIds) do
-				if GetInteriorFromEntity(PlayerPedId()) == interiorId then
-					CanSleep = false
-					if not IsPedInAnyVehicle(PlayerPedId(), false) then
-						CreateScale("OpenShop")
-						DrawScaleformMovieFullscreen(scaleType, 255, 255, 255, 255, 0)
-						if IsControlJustPressed(0, 38) then
-							OpenTattooShop()
-						end
-					end
-				end
-			end
+            if clickedOnPed == true then
+                OpenTattooShop()
+            end
 		end
-
-		if IsMenuOpen() then
-			DisableAllControlActions(0)
-			CanSleep = false
+		if clickedOnPed == true then
+            if IsMenuOpen() then
+			    DisableAllControlActions(0)
+			    CanSleep = false
+            end
 		end
 
         if JayMenu.IsMenuOpened('tattoo') then
@@ -412,7 +471,7 @@ CreateThread(function()
 			end
 		end
 		if CanSleep then
-			Wait(3000)
+			Wait(1000)
 		end
     end
 end)
